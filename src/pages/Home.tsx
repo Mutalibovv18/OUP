@@ -8,6 +8,7 @@ import otabek from '../pages/images/otabek.jpg'
 import ceo from '../pages/images/founder.jpeg'
 import behruz from '../pages/images/behruz.jpeg'
 import mutalibov from '../pages/images/mutalibov.jpeg'
+import samandar from './samandar.png'
 
 
 const fadeInUp = {
@@ -127,9 +128,14 @@ export default function Home() {
       <section className="min-h-screen flex items-center justify-center text-center px-4 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-transparent to-blue-900/20 pointer-events-none" />
         <div className="max-w-4xl mx-auto relative">
-          <motion.p {...fadeInUp} className="text-purple-500 mb-4 font-semibold">
-            AI-Powered Growth for Fitness & Recovery Brands
-          </motion.p>
+        <motion.h1 
+  {...fadeInUp} 
+  transition={{ delay: 0.1 }} 
+  className="text-6xl md:text-8xl font-bold text-white w-full mb-6"
+>
+  OUP Agency
+</motion.h1>
+
           <motion.h1 {...fadeInUp} transition={{ delay: 0.2 }} className="text-5xl md:text-7xl font-bold mb-6">
             Max ROI - Lower CAC.
             <br />
@@ -437,9 +443,9 @@ export default function Home() {
                 image: ceo,
               },
               {
-                name: 'Behruz Ghaziyev',
+                name: 'Samandar Zokirov',
                 role: 'Head of AI Strategy',
-                image: behruz
+                image: samandar
               },
               {
                 name: 'Mutalibov Zukhriddin',
