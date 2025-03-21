@@ -10,7 +10,6 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Logo className="h-8 w-8 text-white" />
-              <span className="text-lg font-bold">Agency</span>
             </div>
             <p className="text-gray-400">
               AI-powered marketing solutions for fitness brands.
@@ -69,14 +68,14 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
-                <span>Litva</span>
+                <span>Lithuania</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} OUP Agency. All rights reserved.</p>
+          <p>&copy; 2023 OUP Agency All rights reserved.</p>
         </div>
       </div>
     </footer>

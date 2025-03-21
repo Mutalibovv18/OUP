@@ -28,7 +28,6 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
             <Logo className="h-10 w-10 text-white" />
-            <span className="text-xl font-bold">Agency</span>
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">

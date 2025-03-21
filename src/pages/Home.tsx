@@ -138,7 +138,7 @@ export default function Home() {
             </span>
           </motion.h1>
           <motion.p {...fadeInUp} transition={{ delay: 0.4 }} className="text-gray-400 text-xl mb-8">
-            We don't just run ads – we build profitable, scalable e-commerce brands.
+          We create effective digital marketing strategies for fitness and recovery brands. Our goal is to connect our clients’ products with the right audience, increasing sales and scaling their businesses. With AI-driven approach, we optimize customer acquisition costs and maximize ROI.”
           </motion.p>
           <motion.div {...fadeInUp} transition={{ delay: 0.6 }} className="flex justify-center">
             <Link
