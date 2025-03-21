@@ -5,7 +5,7 @@ export default function Logo() {
     <img 
       src={img} 
       alt="Logo" 
-      className="h-12 w-12 sm:h-16 sm:w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 rounded-full"
+      className="h-16 w-16 sm:h-20 sm:w-20 md:h-24 md:w-24 lg:h-28 lg:w-28 xl:h-32 xl:w-32 max-w-full rounded-full"
     />
   );
 }
